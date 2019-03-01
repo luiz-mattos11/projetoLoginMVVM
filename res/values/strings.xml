@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">projectEmpty</string>
+    <string name="loginHint">Digite seu login</string>
+    <string name="passHint">Digite sua senha</string>
+    <string name="loginButton">Logar</string>
+    <string name="loginSuccess">Logado com sucesso</string>
+    <string name="loginFailed">Logado sem sucesso</string>
+</resources>
