@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.loginData = model
 
-/*        loginField.addTextChangedListener(object : TextWatcher {
+        loginField.addTextChangedListener(object : TextWatcher {
               override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
 
               }
@@ -38,9 +38,9 @@ class MainActivity : AppCompatActivity() {
                   model.loginInfo = loginField.text.toString()
               }
           })
-*/
 
-/*       passwdField.addTextChangedListener(object : TextWatcher {
+
+       passwdField.addTextChangedListener(object : TextWatcher {
               override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
 
               }
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                   model.passwdInfo = passwdField.text.toString()
               }
          })
-*/
+
         val isLogged = Observer<String> { creds ->
             textView.text = creds
         }
