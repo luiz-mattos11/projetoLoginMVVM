@@ -2,7 +2,7 @@ package com.example.testedatabinding.models
 
 data class UserData(var username:String, var passwd:String) {
     fun verifyCredentials():Boolean{
-        return getUser() == "admin" && getPass() == "edoministreitor"
+        return getUser() == "admin" && getPass() == "admin"
     }
 
     fun getUser():String{
